@@ -1,0 +1,1 @@
+# QGIS---Sobreposicao-de-imagens-de-satelites
