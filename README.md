@@ -1,50 +1,50 @@
-#Wildfire Analysis in an Environmental Protection Area
+# Geospatial Analysis of the Uberaba River Basin Wildfire
 
-1. Project Overview
+## 1. Project Overview
 
-This repository contains the geospatial analysis of a wildfire that occurred in an Environmental Protection Area (EPA) on August 19, 2024. The main objective was to delineate the extent of the burned area, identify heat hotspots, and analyze the initial ignition points to provide accurate data for disaster management and environmental recovery planning.
+This repository contains a detailed geospatial analysis of the wildfire that occurred on **August 19, 2024**, within the **APA Bacia Hidrográfica do Rio Uberaba** (Uberaba River Basin Environmental Protection Area) in Brazil.
 
-The final product is a detailed technical map saved in GeoPDF format, which allows for viewing layers and attributes in compatible PDF readers.
+The primary objective of this project was to use GIS techniques to map the extent of the fire, identify heat hotspots, and analyze probable ignition points. The final product is a technical map designed to provide critical data for post-disaster assessment and future environmental planning.
 
-2. Key Features and Analysis
+---
 
-The map was created using remote sensing techniques and vector data analysis to include the following critical attributes:
+## 2. Final Map
 
-    Burn Scar (NBR Index): The exact fire area was calculated and delineated using the Normalized Burn Ratio (NBR), a robust index for identifying burned areas from satellite imagery.
+![Map Preview](images/map-preview.png)
 
-    Burned Area Metrics:
+*For a full interactive experience, please download the **GeoPDF** file from the `/final_map/` directory and open it in a compatible PDF reader.*
 
-        Total Area: 369.22 hectares.
+---
 
-        Perimeter: 70.62 kilometers.
+## 3. Key Features & Analysis
 
-    Heat Hotspot Mapping: All heat hotspots detected by satellite during the fire period were identified and plotted, offering a complete view of the fire's progression.
+The map was produced using remote sensing data and vector analysis in QGIS, incorporating the following key features:
 
-    Ignition Analysis:
+* **Burn Scar Delineation:** The precise boundary of the burned area was mapped, providing a clear visualization of the fire's extent.
 
-        3 initial heat hotspots were highlighted, considered the likely points of origin for the fire.
+* **Quantitative Impact Metrics:**
+    * **Total Burned Area:** 369.22 hectares
+    * **Burn Scar Perimeter:** 70.62 km
 
-        A 190-meter circular buffer was applied to each of these points to analyze the immediate impact area.
+* **Heat Hotspot Mapping:** All heat hotspots detected by satellite on August 19, 2024, are plotted on the map, illustrating the fire's distribution and intensity across the landscape.
 
-3. Map Technical Specifications
+* **Ignition Point Analysis:**
+    * Several "Probable Initial Hotspots" are highlighted to indicate the likely origins of the fire.
+    * These points are analyzed with a circular buffer to show the immediate surrounding area.
 
-    Geodetic Datum: SIRGAS 2000 / UTM Zone 23S
+---
 
-    Date of Fire: August 19, 2024
+## 4. Technical Specifications
 
-    Map Creation Date: April 11, 2025
+* **Coordinate Reference System:** SIRGAS 2000
+* **Date of Fire Event:** August 19, 2024
+* **Map Creation Date:** April 11, 2025
+* **Software:** QGIS
 
-    File Format: GeoPDF
+---
 
-4. Tools Used
+## 5. Repository Contents
 
-    QGIS 3.40.5: For all data analysis, image processing, and map layout.
-
-    Satellite Data: Sentinel-2 for the NBR calculation.
-
-    Heat Hotspot Data: INPE - National Institute for Space Research.
-
-
-    Open the file in a modern PDF reader (Adobe Acrobat Reader is recommended).
-
-    Access the layers panel to toggle the visibility of the different map features (burn scar, hotspots, buffers, etc.)
+* **/final_map/:** Contains the final high-resolution map in GeoPDF format.
+* **/data/:** Contains all the geospatial data (Shapefiles, GeoPackage, etc.) used in the analysis.
+* **/images/:** Contains the static preview image of the map.
