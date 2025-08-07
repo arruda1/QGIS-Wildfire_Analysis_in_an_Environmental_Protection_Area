@@ -10,7 +10,7 @@ The primary objective of this project was to use GIS techniques to map the exten
 
 ## 2. Final Map
 
-![Map Preview](images/map-preview.png)
+![Map Preview](images/map_preview.png)
 
 *For a full interactive experience, please download the **GeoPDF** file from the `/final_map/` directory and open it in a compatible PDF reader.*
 
