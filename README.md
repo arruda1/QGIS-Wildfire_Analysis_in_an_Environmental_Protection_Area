@@ -1,4 +1,4 @@
-# Geospatial Analysis of the Uberaba River Basin Wildfire
+# Geospatial Analysis of a Wildfire
 
 ## 1. Project Overview
 
