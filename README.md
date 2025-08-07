@@ -46,5 +46,4 @@ The map was produced using remote sensing data and vector analysis in QGIS, inco
 ## 5. Repository Contents
 
 * **/final_map/:** Contains the final high-resolution map in GeoPDF format.
-* **/data/:** Contains all the geospatial data (Shapefiles, GeoPackage, etc.) used in the analysis.
 * **/images/:** Contains the static preview image of the map.
